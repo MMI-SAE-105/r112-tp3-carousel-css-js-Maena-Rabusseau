@@ -58,7 +58,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 .carousel__container {
   display: flex;
   gap: 16px;
-  overflow: hidden;
+  overflow: scroll;
   margin-right: -24px;
   margin-left:  -24px;
   scroll-snap-type: x mandatory;
@@ -85,3 +85,6 @@ scroll-snap-align: center ;
 
   /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
 }
+
+
+
