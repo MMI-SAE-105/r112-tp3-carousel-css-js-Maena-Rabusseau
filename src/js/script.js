@@ -21,3 +21,7 @@ if (carousel) {
     carousel.scrollLeft += carousel.offsetWidth ;
   });
 }
+
+premierItem = document.querySelector(".carousel__item");
+
+scrollAmount = scrollAmount.clientWidth;
