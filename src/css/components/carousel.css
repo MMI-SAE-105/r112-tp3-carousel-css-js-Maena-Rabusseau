@@ -59,8 +59,8 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   display: flex;
   gap: 16px;
   overflow: hidden;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-right: -24px;
+  margin-left:  -24px;
   scroll-snap-type: x mandatory;
 
 
